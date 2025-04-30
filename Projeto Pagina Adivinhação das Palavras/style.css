@@ -1,5 +1,7 @@
 body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: #F5EEDD;
+    margin: 0;
 }
 
 .container {
@@ -68,4 +70,5 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    font-size: 12px;
 }
