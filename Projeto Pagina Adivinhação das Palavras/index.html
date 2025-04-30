@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <header>
+        <h1>Jogo de Adivinhação de Palavras</h1>
+    </header>
+    <div class="container">
+        <h2>Tente Adivinhar</h2>
+        <p id="paragrafo_dicas" onmouseenter="mostrar_dica()">Passe o mouse para ver a primeira dica!</p>
+        <div class="input_container">
+            <input type="text" id="txt_input" placeholder="Digite Aqui...">
+            <button class="btn" onclick="adivinhar()">Adivinhar</button>
+        </div>
+        <div class="resultado" id="resultado"></div>
+        <p id="paragrafo_tentativas"></p>
+    </div>
+    <footer>    
+        <p>Desenvolvido por <a href="https://github.com/EricoPeres" target="_blank">Erico Stefanni &copy</a></p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
