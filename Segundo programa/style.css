@@ -1,0 +1,51 @@
+body {
+    background-color: #6DE1D2;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#txt_input {
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.btn {
+    width: 70px;
+    height: 39px;
+    border-radius: 10px;
+    padding: 5px;
+    color: aliceblue;
+    background-color: #FFD63A;
+}
+
+.btn:hover {
+    background-color: #FFA955;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: brown;
+}
+
+img {
+    max-width: 600px;
+    border-radius: 8px;
+}
