@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: aqua;
+    background-color: blue;
+}
+
+p {
+    margin: 25px 50px 25px 100px;
+}
+
+img {    
+    max-width: 900px;
+}
+
+.Center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;    
+}
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #036340;
+}
