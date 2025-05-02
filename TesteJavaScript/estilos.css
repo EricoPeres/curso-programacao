@@ -1,0 +1,35 @@
+body {
+    background-color: #BAF6FB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 50px;
+    font-size: 60px;
+}
+
+#num_div {
+    font-size: 55px;
+}
+
+#add_btn {
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    background-color: #45767A;
+    box-shadow: 5px 5px 4px #b9cecfa3;
+    cursor: pointer;
+}
+
+#add_btn:Hover {
+    background: -color #b9cecfa3;
+    box-shadow: 5px 5px 4px #45767A;
+    color: #000;
+}
