@@ -4,6 +4,7 @@ let palavras = [
     {palavra: "Churrasco", dicas: ["tradição gaúcha", "comida", "reunir amigos"]},
     {palavra: "JavaScript", dicas: ["fácil de aprender", "linguagem web", "mais popular no mundo"]},
     {palavra: "Fiat Bravo", dicas: ["carro", "traseira bonita", "T-Jet"]},
+    {palavra: "F1", dicas: ["esporte", "vários campeões brasileiros", "maior categoria do automobilismo"]},
 ]
 
 // Elementos do HTML
