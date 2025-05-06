@@ -1,6 +1,72 @@
-.completar {
+/* Color Pallete
+1 - #4ED7F1
+2 - #6FE6FC
+3 - #A8F1FF
+4 - #FFFA8D
+*/
+
+@font-face {
+    font-family: 'Tagesschrift';
+    src: url('../fonts/Tagesschrift-Regular.ttf') format('ttf'), 
+}
+
+body {
+    background-color: #4ED7F1;
+    color: aliceblue;
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {    
+    font-size: 22px;
+}
+
+.completa {
     text-decoration: line-through;
-    color: gray;
+    color: #FFFA8D;
     font-weight: bold;
 }
 
+#txt_input {
+    width: 400px;
+    height: 43px;
+    border-radius: 12px;
+    margin: 25px 25px 25px 25px;    
+}
+
+button {
+    margin: 25px 25px 25px 25px;
+    background-color: #6FE6FC;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+li button {
+    padding: 10px 25px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #A8F1FF;
+}
+
+footer {
+    background-color: #FFFA8D; 
+    text-align: center;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+}
