@@ -9,11 +9,12 @@
 <body>
     <h1>Lista de Tarefas</h1>
     <input type="text" placeholder="Digite Aqui..." id="txt_input">
-    <button onclick="AdicionarTarefa()">Adicionar</button>
-    <p id="erro_msg"></p>
-    
-    <ul id="tarefas_lista"></ul>
-
+    <button class="btn_addTarefa" id="btn_addTarefa">Adicionar</button>
+    <div class="tarefas">
+        <h2>Tarefas</h2>
+        <p id="erro_msg"></p>    
+        <ul id="tarefas_lista"></ul>
+    </div>
     <footer>    
         <p>Desenvolvido por <a href="https://github.com/EricoPeres" target="_blank">Erico Stefanni &copy</a></p>
     </footer>
