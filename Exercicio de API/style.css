@@ -10,6 +10,40 @@ body {
     color: #fFF;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+p {
+    font-size: 23px;
+}
+
+#facts {
+    margin-bottom: 3px;
+}
+
+img {
+    max-height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.largura_altura p {
+    flex-direction: row;
+    margin: 5px, 5px, 5px, 5px;
+}
+
+.resultados {
+    font-size: 16px;
+    border: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
 button {
     margin: 25px 25px 25px 25px;
     background-color: #E83F25;
@@ -34,6 +68,9 @@ footer {
     color: black;
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 100%;    
+}
+
+footer p {
     font-size: 12px;
 }
