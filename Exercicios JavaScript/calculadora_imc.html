@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <!-- <!== Metadados e títulos ==> -->
+<head>
+    <title>IMCWeb</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.js/css/bootstrap.min.css">
+</head>
+<!-- <!== Corpo da página ==> -->
+<body>
+    <!-- <! == Conteúdo da página ==> -->
+    <div class="p-3 mb-2 bg-light text-dark">
+
+        <h1 class="text-center">Calculadora de Índice de Massa Corporal</h1>
+        <h2 class="text-center">Seja Bem-Vindo(a)</h2>
+        <br><br>
+        <p class="fs-4">Digite o seu <b>nome</b> no espaço a seguir:</p>
+        <div class="input-group input-group-sm mb-3">
+            <input class="form-control" id="nome" type= "text">
+        </div>
+        <br><br>
+        <p class="fs-4"> Digite seus <i>dados</i>, conforme solicitado:</p>
+        <div class="input-group input-group-sm mb-2">
+            <input class="form-control" id="idade" type="text" placeholder="Sua idade">
+            <input class="form-control" id="altura" type="text" placeholder="Sua altura">
+            <input class="form-control" id="pesoAtual" type="text" placeholder="Seu peso atual">
+            <input class="form-control" id="pesoPretendido" type="text" placeholder="Seu peso pretendido">
+        </div>
+        <br><br>
+        <button class="btn btn-primary btn-lg" id="calcular" onclick="calcular();">Calcular</button><br><br><br>
+        <h1 id="retorno" class="text-center">Retorno</h1>
+
+    </div>
+
+    <script type="text/javascript" src="Scripts/if_else.js"></script>
+    <script src="../index.js/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>

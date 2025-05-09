@@ -1,0 +1,18 @@
+
+
+h1 {
+    background-color: #beec18;    
+    color: aliceblue;   
+    text-align: center;
+    border: 3px solid green;
+}
+
+button {
+    text-align: justify;    
+    border: 3px solid #beec18;
+}
+
+.Inputs {
+    display: flex;
+    align-items: center;
+}
